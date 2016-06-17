@@ -34,9 +34,9 @@
         <div class="container">
           <div class="col-sm-9">
             <p class="page-header">Take our <strong>Survey!!</strong></p>
-            <p>Let's start by getting to know each other a bit</p>
+            <p class="question1">Let's start by getting to know each other a bit</p>
 <!-- I hate this styling, modify if time allows -->
-            <hr>
+            <hr class="question1">
 <!-- fix this styling           -->
             <form>
 <!-- question 1 -->
@@ -69,8 +69,8 @@
               </div>
 <!-- question 3 -->
               <div class="form-group row question3">
-                <div class="col-sm-9">
-                  <p class="question-text">How do you feel about meat?</p>
+                <div class="col-sm-9 col-sm-offset-1">
+                  <p class="question-text">How do you feel about Meat?</p>
                   <div class="radio question3 survey-text">
                     <label>
                       <input type="radio" name="meat" value="love" checked>
@@ -96,8 +96,8 @@
               </div>
 <!-- question 4 -->
               <div class="form-group row question4">
-                <div class="col-sm-9">
-                  <p class="question-text">Have you mastered the art of making a fire?</p>
+                <div class="col-sm-9 col-sm-offset-1">
+                  <p class="question-text">Have you mastered the art of making a Fire?</p>
                   <div class="radio question4 survey-text">
                     <label>
                       <input type="radio" name="fire" value="fireYes" checked>
@@ -121,9 +121,9 @@
                   </div>
                 </div>
               </div>
-<!-- question 4 -->
+<!-- question 4=5 -->
               <div class="form-group row question5">
-                <div class="col-sm-9">
+                <div class="col-sm-9 col-sm-offset-1">
                   <p class="question-text">How do you feel about Electricity?</p>
                   <div class="radio question5 survey-text">
                     <label>
@@ -148,8 +148,24 @@
                   </div>
                 </div>
               </div>
-
-
+<!-- question 5 -->
+              <div class="form-group row question6">
+                <div class="col-sm-9 col-sm-offset-1">
+                  <p class="question-text">I am _____________ of more giant lizards.</p>
+                  <br>
+                  <select class="form-control" id="lizards">
+                    <option>strongly in favor</option>
+                    <option>mixed to positive at the thought</option>
+                    <option>neutral to the idea</option>
+                    <option>mixed to negative at the though</option>
+                    <option>strongly opposed</option>
+                  </select>
+                  <br>
+                  <div>
+                    <button type="button" class="btn btn-info btn-lg question6" id="submit6">Submit</button>
+                  </div>
+                </div>
+              </div>
 
 
               <!-- <div class="row">

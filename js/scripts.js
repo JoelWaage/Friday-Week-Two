@@ -29,6 +29,14 @@ $(document).ready(function() {
     $(".question5").show();
   });
 
+  $("#submit5").click(function() {
+    $(".question5").hide();
+    $(".question6").show();
+  });
 
+  $("#submit6").click(function() {
+    $(".question6").hide();
+    $(".vacationResult").show();
+  });
 
 });
