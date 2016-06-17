@@ -1,7 +1,17 @@
 body {
-  background-color: #666699
+  background-color: #666699;
 }
 
 .jumbotron {
   text-align:center;
+  background-color:#66ccff;
+  color: #666699;
+}
+
+h3 {
+  color:#66ccff;
+}
+
+.img-responsive {
+  margin:auto;
 }
