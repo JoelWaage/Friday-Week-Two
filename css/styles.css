@@ -19,10 +19,20 @@ h3 {
 
 p {
   color:#ccffff;
-  font-size:1.8em;
+  font-size:1.9em;
 }
 
 .nav-item {
   font-size: 2em;
   text-align: left;
+}
+
+#possible {
+  font-size: 12em;
+  text-align: center;
+}
+
+#fun {
+  font-size:0.8em;
+  text-align: right;
 }
