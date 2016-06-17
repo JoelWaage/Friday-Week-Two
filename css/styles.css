@@ -42,6 +42,23 @@ p {
   color:#ccffff;
 }
 
+.question-text {
+  font-size:2em;
+  color:#ccffff;
+}
+
 .question2 {
   display:none;
+}
+
+.question3 {
+  display:none;
+}
+
+.question4{
+  display:none;
+}
+
+.question5 {
+  display:none
 }
