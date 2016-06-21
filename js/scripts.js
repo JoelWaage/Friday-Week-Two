@@ -20,23 +20,23 @@ $(document).ready(function() {
 
     if (meat === "raw") {
       if (lizards === "1" || "2") {
-        alert("Mezozoic");
-      } else if (lizards === ("3" || "4")) {
+        $("#mezozoic").show();
+      } else if (lizards === "3" || "4") {
         $("#caveman").show();
         }
     } else if (meat === "love") {
       if (fire === "fireYes") {
-        alert("Caveman Again");
+        $("#caveman").show();
       } else if (fire === "fireMaybe") {
-        alert("old west");
+        $("#old-west").show();
       } else if (fire === "fireNo") {
-        alert("medieval");
+        $("#medieval").show();
       }
     } else if (meat === "hate") {
       if (fire === "fireYes") {
-        alert("old west again");
+        $("#old-west").show();
       } else {
-        alert("nyc");
+        $("#nyc").show();;
       }
     }
 
