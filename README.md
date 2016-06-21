@@ -3,7 +3,7 @@ A travel site to show new jQuery skills
 
 ## Intallation
 
-https://github.com/JoelWaage/Friday-Week-Two/
+https://joelwaage.github.io/Friday-Week-Two/
 
 ## Usage
 
