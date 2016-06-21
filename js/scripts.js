@@ -18,13 +18,38 @@ $(document).ready(function() {
     electricity = $("input:radio[name=electricity]:checked").val();
     lizards = $("#lizards").val();
 
-    alert(personName);
-    alert(email);
-    alert(what);
-    alert(meat);
-    alert(fire);
-    alert(electricity);
-    alert(lizards);
+    if (meat === "love") {
+      alert("carnivore!");
+    } else if (meat === "hate") {
+      alert("vegan!");
+    } else {
+      alert("raw!");
+    };
+
+    if (fire === "fireYes") {
+      alert("Fire!!!!");
+    } else if (fire ==="fireMaybe") {
+      alert("fire?");
+    } else {
+      alert("damp!");
+    }
+
+    if (electricity === "electricityYes") {
+      alert("Edison's Child");
+    } else if (electricity === "electricityMaybe") {
+      alert("happy camper");
+    } else {
+      alert("full ludite");
+    }
+
+
+    // alert(personName);
+    // alert(email);
+    // alert(what);
+    // alert(meat);
+    // alert(fire);
+    // alert(electricity);
+    // alert(lizards);
 
   });
 });
