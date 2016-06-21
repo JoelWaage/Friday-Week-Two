@@ -18,6 +18,8 @@ $(document).ready(function() {
     electricity = $("input:radio[name=electricity]:checked").val();
     lizards = $("#lizards").val();
 
+    $("#scrollDown").show();
+
     if (meat === "raw") {
       if (lizards === "1" || "2") {
         $("#mezozoic").show();
@@ -39,6 +41,7 @@ $(document).ready(function() {
         $("#nyc").show();;
       }
     }
+
 
 
     // alert(personName);

@@ -67,6 +67,7 @@ p {
 #mezozoic {
   display:none;
 }
+
  #nyc {
    display:none
  }
@@ -74,3 +75,7 @@ p {
  #medieval {
    display:none;
  }
+
+#scrollDown {
+  display:none;
+}
