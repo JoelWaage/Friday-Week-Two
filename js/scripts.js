@@ -19,10 +19,10 @@ $(document).ready(function() {
     lizards = $("#lizards").val();
 
     if (meat === "raw") {
-      if (lizards === ("1" || "2")) {
+      if (lizards === "1" || "2") {
         alert("Mezozoic");
       } else if (lizards === ("3" || "4")) {
-        alert("Caveman");
+        $("#caveman").show();
         }
     } else if (meat === "love") {
       if (fire === "fireYes") {

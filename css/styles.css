@@ -50,3 +50,27 @@ p {
 .questions {
   display:none;
 }
+
+.destination {
+  font-size:0.75em;
+  color:#ccffff;
+}
+
+#caveman {
+  display:none;
+}
+
+#old-west {
+  display:none;
+}
+
+#mezozoic {
+  display:none;
+}
+ #nyc {
+   display:none
+ }
+
+ #medieval {
+   display:none;
+ }
