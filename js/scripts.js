@@ -18,28 +18,26 @@ $(document).ready(function() {
     electricity = $("input:radio[name=electricity]:checked").val();
     lizards = $("#lizards").val();
 
-    if (meat === "love") {
-      alert("carnivore!");
+    if (meat === "raw") {
+      if (lizards === ("1" || "2")) {
+        alert("Mezozoic");
+      } else if (lizards === ("3" || "4")) {
+        alert("Caveman");
+        }
+    } else if (meat === "love") {
+      if (fire === "fireYes") {
+        alert("Caveman Again");
+      } else if (fire === "fireMaybe") {
+        alert("old west");
+      } else if (fire === "fireNo") {
+        alert("medieval");
+      }
     } else if (meat === "hate") {
-      alert("vegan!");
-    } else {
-      alert("raw!");
-    };
-
-    if (fire === "fireYes") {
-      alert("Fire!!!!");
-    } else if (fire ==="fireMaybe") {
-      alert("fire?");
-    } else {
-      alert("damp!");
-    }
-
-    if (electricity === "electricityYes") {
-      alert("Edison's Child");
-    } else if (electricity === "electricityMaybe") {
-      alert("happy camper");
-    } else {
-      alert("full ludite");
+      if (fire === "fireYes") {
+        alert("old west again");
+      } else {
+        alert("nyc");
+      }
     }
 
 
